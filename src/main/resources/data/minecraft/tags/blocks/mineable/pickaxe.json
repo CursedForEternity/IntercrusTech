@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "zpl:ion_thruster_exhaust",
+    "zpl:ion_thrust_modulator",
+    "zpl:gyroscope",
+    "zpl:mass_suspension_matrix",
+    "zpl:photon_pulse_blaster",
+    "zpl:launch_platform",
+    "zpl:launch_button"
+  ]
+}

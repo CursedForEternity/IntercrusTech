@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "functional",
+  "key": {
+    "I": {
+      "item": "zps:space_metal_ingot"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "II ",
+    "INA",
+    "II "
+  ],
+  "result": {
+    "item": "zpl:photon_pulse_blaster",
+    "count": 2
+  },
+  "show_notification": true
+}

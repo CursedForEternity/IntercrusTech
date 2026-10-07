@@ -1,0 +1,82 @@
+package cursed.intch.config;
+
+import net.minecraftforge.common.ForgeConfigSpec;
+
+public class IntercrusConfig {
+
+    private static ForgeConfigSpec.ConfigValue<Double> thrusterStrength;
+    private static final double thrusterStrengthDefault = 512d;
+
+    private static ForgeConfigSpec.ConfigValue<Double> gyroscopeStrength;
+    private static final double gyroscopeStrengthDefault = 128d;
+
+    private static ForgeConfigSpec.ConfigValue<Double> thrusterDrag;
+    private static final double thrusterDragDefault = 2400d;
+
+    private static ForgeConfigSpec.ConfigValue<Double> advGyroMaxSpin;
+    private static final double advGyroMaxSpinDefault = 16d;
+
+    private static ForgeConfigSpec.ConfigValue<Double> advGyroStabilizeSpeed;
+    private static final double advGyroStabilizeSpeedDefault = 12d;
+
+    private static ForgeConfigSpec.ConfigValue<Double> advGyroProportionalGain;
+    private static final double advGyroProportionalGainDefault = 256d;
+
+    private static ForgeConfigSpec.ConfigValue<Double> advGyroMaxTorqueFactor;
+    private static final double advGyroMaxTorqueFactorDefault = 2048d;
+
+    public static double getThrusterStrength() {
+        double result = thrusterStrengthDefault;
+        try {
+            result = thrusterStrength.get();
+        } catch (Exception ignored) { }
+        return result * 1000;
+    }
+
+    public static double getThrusterDrag() {
+        double result = thrusterDragDefault;
+        try {
+            result = thrusterDrag.get();
+        } catch (Exception ignored) { }
+        return result;
+    }
+
+    public static double getGyroStrength() {
+        double result = gyroscopeStrengthDefault;
+        try {
+            result = gyroscopeStrength.get();
+        } catch (Exception ignored) { }
+        return result * 500;
+    }
+
+
+    public static double getAdvGyroMaxSpin() {
+        try { return advGyroMaxSpin.get(); } catch (Exception ignored) { }
+        return advGyroMaxSpinDefault;
+    }
+
+    public static double getAdvGyroStabilizeSpeed() {
+        try { return advGyroStabilizeSpeed.get(); } catch (Exception ignored) { }
+        return advGyroStabilizeSpeedDefault;
+    }
+
+    public static double getAdvGyroProportionalGain() {
+        try { return advGyroProportionalGain.get(); } catch (Exception ignored) { }
+        return advGyroProportionalGainDefault;
+    }
+
+    public static double getAdvGyroMaxTorqueFactor() {
+        try { return advGyroMaxTorqueFactor.get(); } catch (Exception ignored) { }
+        return advGyroMaxTorqueFactorDefault;
+    }
+
+    public static final ForgeConfigSpec CONFIG_SPEC = buildConfig();
+
+    private static ForgeConfigSpec buildConfig() {
+        ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
+        thrusterStrength = builder.define("ThrusterSolarStrength", thrusterStrengthDefault);
+        gyroscopeStrength = builder.define("GyroscopeBaseStrength", gyroscopeStrengthDefault);
+        thrusterDrag = builder.define("ThrusterDrag", thrusterDragDefault);
+        return builder.build();
+    }
+}

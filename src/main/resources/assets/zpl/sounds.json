@@ -1,0 +1,8 @@
+{
+  "photon_pulse_shoot": {
+    "subtitle": "subtitles.zpl.photon_pulse_shoot",
+    "sounds": [
+      "zpl:photon_pulse"
+    ]
+  }
+}

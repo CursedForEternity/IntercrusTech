@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "functional",
+  "key": {
+    "P": {
+      "item": "zps:space_metal_ingot"
+    },
+    "L": {
+      "item": "minecraft:emerald"
+    },
+    "M": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "pattern": [
+    "PLP",
+    "LML",
+    "PLP"
+  ],
+  "result": {
+    "item": "zpl:mass_suspension_matrix",
+    "count": 1
+  },
+  "show_notification": true
+}

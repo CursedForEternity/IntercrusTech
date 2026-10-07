@@ -1,0 +1,49 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Apache 2.0"
+
+[[mods]]
+modId = "intch"
+version = "${version}"
+displayName = "IntercrusTech"
+authors = "Cursed"
+description = '''
+Too the stars and beyond!
+'''
+logoFile = "assets/intch/icon.png"
+
+[[dependencies.intch]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.intch]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.intch]]
+modId = "valkyrienskies"
+mandatory = true
+versionRange = "[2.4.8,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.intch]]
+modId = "zps"
+mandatory = true
+versionRange = "[1.20.1-2.0.0,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.intch]]
+modId = "zpl"
+mandatory = true
+versionRange = "[1.20.1-1.0.0,)"
+ordering = "NONE"
+side = "BOTH"
+

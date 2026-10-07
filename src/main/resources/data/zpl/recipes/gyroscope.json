@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "functional",
+  "key": {
+    "I": {
+      "item": "zps:space_metal_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "IRI",
+    "IBI",
+    "IRI"
+  ],
+  "result": {
+    "item": "zpl:gyroscope",
+    "count": 1
+  },
+  "show_notification": true
+}

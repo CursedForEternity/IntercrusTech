@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "g_mungus.zpl.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "PonderLevelMixin",
+    "RenderStateShardAccessor"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

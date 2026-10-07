@@ -1,0 +1,41 @@
+{
+  "item.zpl.gyroscope": "Gyroscope",
+  "item.zpl.ion_thrust_modulator": "Ion Thrust Modulator",
+  "item.zpl.ion_thruster_exhaust": "Ion Thruster Exhaust",
+  "item.zpl.mass_suspension_matrix": "Mass Suspension Matrix",
+  "item.zpl.photon_pulse_blaster": "Photon Pulse Blaster",
+  "item.zpl.launch_platform": "Launch Platform",
+  "item.zpl.launch_button": "Launch Button",
+  "item.zpl.droid_core": "Droid Core",
+  "item.zpl.advanced_gyroscope_controller": "Advanced Gyroscope Controller",
+  "item.zpl.advanced_gyroscope_frame": "Advanced Gyroscope Frame",
+  "item.zpl.advanced_gyroscope_input_module": "Advanced Gyroscope Input Module",
+  "block.zpl.gyroscope": "Gyroscope",
+  "block.zpl.ion_thrust_modulator": "Ion Thrust Modulator",
+  "block.zpl.ion_thruster_exhaust": "Ion Thruster Exhaust",
+  "block.zpl.mass_suspension_matrix": "Mass Suspension Matrix",
+  "block.zpl.photon_pulse_blaster": "Photon Pulse Blaster",
+  "block.zpl.launch_platform": "Launch Platform",
+  "block.zpl.launch_button": "Launch Button",
+  "block.zpl.droid_core": "Droid Core",
+  "block.zpl.advanced_gyroscope_controller": "Advanced Gyroscope Controller",
+  "block.zpl.advanced_gyroscope_frame": "Advanced Gyroscope Frame",
+  "block.zpl.advanced_gyroscope_input_module": "Advanced Gyroscope Input Module",
+  "container.zpl.advanced_gyroscope_controller": "Advanced Gyroscope Controller",
+  "screen.zpl.advanced_gyroscope_controller_config": "Input Config",
+  "button.zpl.advanced_gyroscope_controller_config": "Configure",
+  "button.zpl.advanced_gyroscope_controller_close": "Close",
+  "subtitles.zpl.photon_pulse_shoot": "Photon Pulse fired",
+
+  "zpl.ponder.assembly.header": "Ship Assembly",
+  "zpl.ponder.assembly.text_1": "To assemble a ship, first build a Launch Platform.",
+  "zpl.ponder.assembly.text_2": "Next, build your ship on top.",
+  "zpl.ponder.assembly.text_3": "Then, place a Launch Button on the platform, and press it to assemble your ship.",
+
+
+  "zpl.ponder.thruster.header": "Ion Thruster",
+  "zpl.ponder.thruster.text_1": "Ion Thrusters can be used to propel a ship.",
+  "zpl.ponder.thruster.text_2": "To set one up, place an Ion Thrust Modulator in front of an Ion Thruster Exhaust.",
+  "zpl.ponder.thruster.text_3": "Activate the thruster by providing FE and a Redstone Signal to the Ion Thrust Modulator block."
+
+}
